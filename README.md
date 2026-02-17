@@ -1,10 +1,10 @@
 # Week 7, Practical 1: Working with Data
 
-The aim of this practical is to familiarize yourself with JavaScript object literals and refresh your memory of JavaScript classes. 
+The aim of this practical is to refresh your memory of JavaScript object literals and classes. 
 
 Stage 1 is quick and easy. Stage 2 is much more challenging and draws heavily on your existing programming knowledge from prior modules. 
 
-## Stage 1: Object literals and constructor functions
+## Stage 1: Object literals and classes
 This stage is basic and focuses on the syntax of creating objects and classes. If you're comfortable with the syntax, jump ahead to stage 2, which is intended to stretch your JavaScript skills.
 
 ### Exercise 1.1: Representing an address as an object literal
@@ -76,9 +76,9 @@ Create a simple webpage that has some filler text e.g. a heading and a few parag
 
 Create a JavaScript file and link it to your HTML file by adding a `<script>` element at the end of the `<body>` element.
 
-Using object literals, create objects that store properties for 3-5 different themes. At a minimum, each theme should have properties storing a background colour, a text colour, and a font family. 
+Using object literals or a class, create objects that store properties for 3-5 different themes. At a minimum, each theme should have properties storing a background colour, a text colour, and a font family. 
 
-Here is a basic example of what an object might store:
+Here is a basic example of what an object literal might store:
 
 ```
 let theme1 = {
@@ -97,7 +97,7 @@ Run maths-tutor/index.html using Live Preview. Then, watch the video of the comp
 
 The purpose of this webpage is to help school pupils to practice their addition, subtraction, multiplication, and division. At the moment, you're seeing placeholder text and behaviour but, if you take a look at main.js, you'll see that a lot of the JS has already been written. The only thing that's missing is a `Question` class that contains information and behaviour for a randomly generated maths question. 
 
-**At the top of main.js, create a new object called `Question`** using a class. 
+**At the top of main.js, create a new class called `Question`**, 
 
 Each `Question` should randomly generate a basic maths question with the format:
 
